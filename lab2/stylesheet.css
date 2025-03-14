@@ -11,11 +11,45 @@ a:visited
 {
     color: darkolivegreen;
 }
+.login
+{
+    margin-left: 5px;
+    
+}
+.signup
+{
+    margin-left: 5px;
+}
+
+header
+{
+    display: flex;
+   
+   
+    gap: 20px; 
+    width: 100%;
+    height: 100px;
+   
+    padding: 20px;
+    background-color: rgb(40, 44, 52);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+#image
+{
+    margin-left: 0px;
+}
+#shop_name
+{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
 #navbar
 {
-    background-color: grey;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 40%;
+   
 }
 
   
@@ -37,12 +71,125 @@ a:visited
 {
     color: darkolivegreen;
 }
+
+.container_name
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+}
+.catagory_container {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 10px; 
+    padding: 10px;
+}
+
+
+.movie_box {
+    width: 150px; 
+    height: 200px; 
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.movie_box:hover {
+  
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.6);
+}
+
+
+.movie_poster {
+    width: 100%;
+    height: 70%; 
+  
+    border-radius: 5px;
+}
+.movie_poster img{
+    width: 100px;
+    height: 150px; 
+}
+
+
+.IMDB_rating {
+    height: 10%;
+    color: gold;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.movie_name {
+    height: 10%;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+  
+
+}
+
+
+.play_now {
+    height: 10%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+   
+}
+
+.play_now:hover {
+    background-color: darkred;
+}
+
+.container {
+    margin-top: 100px;
+    
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+    background-color:  rgb(40, 44, 52);
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+.container :hover
+{
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.6);
+}
+
+.conatainer h1,h2{
+    color: #d32f2f;
+}
 #About
 {
-    background-color: rgb(55, 60, 66);
-    margin-right: 70%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 80%;
+    height: 300px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: rgb(40, 44, 52);
     border-radius: 10px;
-    margin-left: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   
+
     
 
     
@@ -50,16 +197,34 @@ a:visited
 #About #Aboutpic
 { 
     
-  padding-top: 10px;
-    margin-left: 30%;
-    margin-top: 10px;
+    background-color: rgb(55, 60, 66);
+    padding: 10px;
+    border-radius: 50%;
    
     
  
 }
-#About_text{
+#About  :hover
+{
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.6);
+}
 
-    
+#Aboutpic img
+{
+  border-radius: 50%;
+}
+#About #About_text
+{
+    color: aliceblue;
+   
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1; 
+}
+#About #Aboutpic :hover {
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.6); 
+   
+    border-color: aqua;
 }
 
 #heading
@@ -76,8 +241,17 @@ a:visited
 {
     margin-top: 150px;
 }
-
-h1
+footer
 {
-
+    display: flex;
+   
+   
+    gap: 20px; 
+    width: 100%;
+    height: 50px;
+   
+    padding: 20px;
+    background-color: rgb(40, 44, 52);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
