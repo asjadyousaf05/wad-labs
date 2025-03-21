@@ -1,0 +1,226 @@
+:root {
+    --table-background-color: rgb(222, 216, 207);
+    --form-background-color: rgb(223, 218, 210);
+    --form-heading-color: rgb(42, 141, 13); 
+    --header-footer-bg-color : rgb(42, 141, 13);
+    --table-list-hover-color :rgba(42, 141, 13, 0.3);
+}
+body{
+    background-color: rgb(191, 194, 198);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var( --header-footer-bg-color);
+    
+    
+    padding: 15px 20px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+header img {
+    width: 60px;  
+    height: 60px; 
+    border-radius: 50%; 
+    margin-right: 15px;
+}
+
+
+header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: rgb(222, 216, 207);
+}
+
+table {
+    background-color: var(--table-background-color);
+    border-collapse: collapse;
+    border: solid black;
+    border-radius: 4px;
+    border-spacing: 50pt;
+}
+
+th {
+    background-color: rgb(42, 141, 13);
+}
+
+td {
+    border: solid 1px black;
+}
+
+tr {
+    border: solid 1px black;
+}
+
+tr:hover {
+    background-color: var(--table-list-hover-color);
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    top: 50%;
+    left: 50%;
+}
+
+.forms {
+    padding-top: 10px;
+    display: block;
+    flex-direction: column;
+    margin-top: 50px;
+    border: solid 2px black;
+    width: 30%;
+    height: 350px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(158, 234, 151);
+    margin-left: 25%;
+    background-color: var(--form-background-color);
+}
+
+
+.forms h2 {
+    text-align: center;
+    color: var(--form-heading-color);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.forms h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, rgb(42, 141, 13), rgb(0, 92, 52));
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.datafields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    align-content: flex-start;
+    margin-bottom: 3px;
+}
+
+
+#submit_button {
+    color: white;
+    background-color: rgb(42, 141, 13);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+
+#submit_button:hover {
+    background-color: rgb(34, 115, 10);
+    transform: scale(1.05);
+}
+#Report {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: var(--form-background-color);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#Report:hover {
+    transform: scale(1.02);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+#Report h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, rgb(42, 141, 13), rgb(0, 92, 52));
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#Report p, #Report ul {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+}
+
+#Report ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Report ul li {
+    padding: 8px;
+    background: rgba(42, 141, 13, 0.1);
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+#Report ul li:hover {
+    background-color: var(--table-list-hover-color);
+}
+
+
+
+
+footer {
+    background-color: var( --header-footer-bg-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
